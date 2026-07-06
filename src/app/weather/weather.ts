@@ -29,7 +29,7 @@ export class WeatherComponent implements OnInit {
       this.weatherData = data;
       this.loading = false;
 
-      console.log("Loading:", this.loading);
+      console.log("Loading :", this.loading);
     },
     error: (err) => {
       console.error(err);
