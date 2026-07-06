@@ -20,7 +20,7 @@
     </thead>
 
     <tbody>
-      @for (item of weatherData; track item.date) {
+      @for (item of  weatherData; track item.date) {
         <tr>
           <td>{{ item.date | date:'mediumDate' }}</td>
           <td>{{ item.temperatureC }}</td>
